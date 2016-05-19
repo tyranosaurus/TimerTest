@@ -18,7 +18,7 @@ protected void onCreate(Bundle savedInstanceState) {
         //(클래스이름,1초후 시작, 1초가 지날때마다 앞에쓴 클래스를 실행)
         timer.schedule(new MyTimerTask(), 1000, 1000);
         }
-
+나는 최영진이다
 //내부클래스
 private class MyTimerTask extends TimerTask {
 
